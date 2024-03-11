@@ -1,0 +1,2621 @@
+26.78 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.26.78 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.26.78 closed."
+    ], 
+    "stdout": "46%97%\r\n", 
+    "stdout_lines": [
+        "46%97%"
+    ]
+}
+25.210 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.25.210 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.25.210 closed."
+    ], 
+    "stdout": "48%98%\r\n", 
+    "stdout_lines": [
+        "48%98%"
+    ]
+}
+27.18 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.27.18 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.27.18 closed."
+    ], 
+    "stdout": "73%93%\r\n", 
+    "stdout_lines": [
+        "73%93%"
+    ]
+}
+24.234 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.24.234 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.24.234 closed."
+    ], 
+    "stdout": "49%93%\r\n", 
+    "stdout_lines": [
+        "49%93%"
+    ]
+}
+24.82 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.24.82 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.24.82 closed."
+    ], 
+    "stdout": "67%97%\r\n", 
+    "stdout_lines": [
+        "67%97%"
+    ]
+}
+27.226 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.27.226 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.27.226 closed."
+    ], 
+    "stdout": "21%100%\r\n", 
+    "stdout_lines": [
+        "21%100%"
+    ]
+}
+22.54 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.22.54 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.22.54 closed."
+    ], 
+    "stdout": "51%97%\r\n", 
+    "stdout_lines": [
+        "51%97%"
+    ]
+}
+25.78 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.25.78 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.25.78 closed."
+    ], 
+    "stdout": "51%96%\r\n", 
+    "stdout_lines": [
+        "51%96%"
+    ]
+}
+24.230 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.24.230 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.24.230 closed."
+    ], 
+    "stdout": "48%79%\r\n", 
+    "stdout_lines": [
+        "48%79%"
+    ]
+}
+21.194 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.21.194 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.21.194 closed."
+    ], 
+    "stdout": "54%93%\r\n", 
+    "stdout_lines": [
+        "54%93%"
+    ]
+}
+18.166 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.18.166 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.18.166 closed."
+    ], 
+    "stdout": "49%91%\r\n", 
+    "stdout_lines": [
+        "49%91%"
+    ]
+}
+18.226 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.18.226 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.18.226 closed."
+    ], 
+    "stdout": "43%86%\r\n", 
+    "stdout_lines": [
+        "43%86%"
+    ]
+}
+11.46 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.11.46 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.11.46 closed."
+    ], 
+    "stdout": "74%70%\r\n", 
+    "stdout_lines": [
+        "74%70%"
+    ]
+}
+10.166 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.10.166 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+10.190 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.10.190 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+8.186 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.186 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.186 closed."
+    ], 
+    "stdout": "65%100%\r\n", 
+    "stdout_lines": [
+        "65%100%"
+    ]
+}
+8.142 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.142 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.142 closed."
+    ], 
+    "stdout": "79%100%\r\n", 
+    "stdout_lines": [
+        "79%100%"
+    ]
+}
+22.30 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.22.30 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.22.30 closed."
+    ], 
+    "stdout": "55%98%\r\n", 
+    "stdout_lines": [
+        "55%98%"
+    ]
+}
+8.50 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.8.50 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+7.74 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.7.74 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+6.62 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.6.62 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+5.78 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.78 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.78 closed."
+    ], 
+    "stdout": "91%100%\r\n", 
+    "stdout_lines": [
+        "91%100%"
+    ]
+}
+4.118 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.118 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.118 closed."
+    ], 
+    "stdout": "71%34%\r\n", 
+    "stdout_lines": [
+        "71%34%"
+    ]
+}
+3.78 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.3.78 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+3.58 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.3.58 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+7.38 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.38 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.38 closed."
+    ], 
+    "stdout": "82%37%\r\n", 
+    "stdout_lines": [
+        "82%37%"
+    ]
+}
+2.214 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.2.214 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+2.174 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.2.174 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+4.114 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.114 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.114 closed."
+    ], 
+    "stdout": "66%100%\r\n", 
+    "stdout_lines": [
+        "66%100%"
+    ]
+}
+2.18 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.18 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.18 closed."
+    ], 
+    "stdout": "86%34%\r\n", 
+    "stdout_lines": [
+        "86%34%"
+    ]
+}
+29.10 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.29.10 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.29.10 closed."
+    ], 
+    "stdout": "54%97%\r\n", 
+    "stdout_lines": [
+        "54%97%"
+    ]
+}
+1.102 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.102 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.102 closed."
+    ], 
+    "stdout": "91%66%\r\n", 
+    "stdout_lines": [
+        "91%66%"
+    ]
+}
+1.150 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.150 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.150 closed."
+    ], 
+    "stdout": "84%73%\r\n", 
+    "stdout_lines": [
+        "84%73%"
+    ]
+}
+25.182 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.25.182 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.25.182 closed."
+    ], 
+    "stdout": "57%48%\r\n", 
+    "stdout_lines": [
+        "57%48%"
+    ]
+}
+23.130 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.23.130 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.23.130 closed."
+    ], 
+    "stdout": "49%98%\r\n", 
+    "stdout_lines": [
+        "49%98%"
+    ]
+}
+21.214 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.21.214 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.21.214 closed."
+    ], 
+    "stdout": "53%98%\r\n", 
+    "stdout_lines": [
+        "53%98%"
+    ]
+}
+21.154 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.21.154 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.21.154 closed."
+    ], 
+    "stdout": "52%91%\r\n", 
+    "stdout_lines": [
+        "52%91%"
+    ]
+}
+23.186 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.23.186 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.23.186 closed."
+    ], 
+    "stdout": "53%68%\r\n", 
+    "stdout_lines": [
+        "53%68%"
+    ]
+}
+20.206 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.20.206 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.20.206 closed."
+    ], 
+    "stdout": "64%98%\r\n", 
+    "stdout_lines": [
+        "64%98%"
+    ]
+}
+19.202 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.19.202 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.19.202 closed."
+    ], 
+    "stdout": "30%71%\r\n", 
+    "stdout_lines": [
+        "30%71%"
+    ]
+}
+20.98 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.20.98 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.20.98 closed."
+    ], 
+    "stdout": "45%100%\r\n", 
+    "stdout_lines": [
+        "45%100%"
+    ]
+}
+19.210 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.19.210 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.19.210 closed."
+    ], 
+    "stdout": "26%72%\r\n", 
+    "stdout_lines": [
+        "26%72%"
+    ]
+}
+19.30 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.19.30 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.19.30 closed."
+    ], 
+    "stdout": "56%94%\r\n", 
+    "stdout_lines": [
+        "56%94%"
+    ]
+}
+19.170 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.19.170 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.19.170 closed."
+    ], 
+    "stdout": "57%95%\r\n", 
+    "stdout_lines": [
+        "57%95%"
+    ]
+}
+19.206 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.19.206 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.19.206 closed."
+    ], 
+    "stdout": "34%72%\r\n", 
+    "stdout_lines": [
+        "34%72%"
+    ]
+}
+18.190 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.18.190 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.18.190 closed."
+    ], 
+    "stdout": "53%100%\r\n", 
+    "stdout_lines": [
+        "53%100%"
+    ]
+}
+18.110 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.18.110 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+19.42 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.19.42 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.19.42 closed."
+    ], 
+    "stdout": "46%100%\r\n", 
+    "stdout_lines": [
+        "46%100%"
+    ]
+}
+18.186 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.18.186 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.18.186 closed."
+    ], 
+    "stdout": "43%100%\r\n", 
+    "stdout_lines": [
+        "43%100%"
+    ]
+}
+17.178 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.17.178 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.17.178 closed."
+    ], 
+    "stdout": "77%89%\r\n", 
+    "stdout_lines": [
+        "77%89%"
+    ]
+}
+17.34 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.17.34 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.17.34 closed."
+    ], 
+    "stdout": "85%98%\r\n", 
+    "stdout_lines": [
+        "85%98%"
+    ]
+}
+18.46 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.18.46 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.18.46 closed."
+    ], 
+    "stdout": "62%100%\r\n", 
+    "stdout_lines": [
+        "62%100%"
+    ]
+}
+17.198 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.17.198 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.17.198 closed."
+    ], 
+    "stdout": "78%100%\r\n", 
+    "stdout_lines": [
+        "78%100%"
+    ]
+}
+17.94 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.17.94 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.17.94 closed."
+    ], 
+    "stdout": "99%93%\r\n", 
+    "stdout_lines": [
+        "99%93%"
+    ]
+}
+17.246 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.17.246 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.17.246 closed."
+    ], 
+    "stdout": "53%97%\r\n", 
+    "stdout_lines": [
+        "53%97%"
+    ]
+}
+17.110 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.17.110 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.17.110 closed."
+    ], 
+    "stdout": "95%100%\r\n", 
+    "stdout_lines": [
+        "95%100%"
+    ]
+}
+15.254 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.15.254 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.15.254 closed."
+    ], 
+    "stdout": "77%93%\r\n", 
+    "stdout_lines": [
+        "77%93%"
+    ]
+}
+16.186 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.16.186 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.16.186 closed."
+    ], 
+    "stdout": "78%84%\r\n", 
+    "stdout_lines": [
+        "78%84%"
+    ]
+}
+16.222 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.16.222 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+15.198 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.15.198 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.15.198 closed."
+    ], 
+    "stdout": "96%99%\r\n", 
+    "stdout_lines": [
+        "96%99%"
+    ]
+}
+16.62 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.16.62 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.16.62 closed."
+    ], 
+    "stdout": "92%92%\r\n", 
+    "stdout_lines": [
+        "92%92%"
+    ]
+}
+16.18 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.16.18 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.16.18 closed."
+    ], 
+    "stdout": "55%100%\r\n", 
+    "stdout_lines": [
+        "55%100%"
+    ]
+}
+16.150 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.16.150 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.16.150 closed."
+    ], 
+    "stdout": "77%94%\r\n", 
+    "stdout_lines": [
+        "77%94%"
+    ]
+}
+15.6 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.15.6 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.15.6 closed."
+    ], 
+    "stdout": "71%91%\r\n", 
+    "stdout_lines": [
+        "71%91%"
+    ]
+}
+15.150 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.15.150 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.15.150 closed."
+    ], 
+    "stdout": "57%88%\r\n", 
+    "stdout_lines": [
+        "57%88%"
+    ]
+}
+2.114 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: Connection closed by 10.8.2.114\r\n", 
+    "unreachable": true
+}
+13.186 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.13.186 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.13.186 closed."
+    ], 
+    "stdout": "56%92%\r\n", 
+    "stdout_lines": [
+        "56%92%"
+    ]
+}
+13.22 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.13.22 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.13.22 closed."
+    ], 
+    "stdout": "92%87%\r\n", 
+    "stdout_lines": [
+        "92%87%"
+    ]
+}
+13.142 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.13.142 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.13.142 closed."
+    ], 
+    "stdout": "92%79%\r\n", 
+    "stdout_lines": [
+        "92%79%"
+    ]
+}
+12.250 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.12.250 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.12.250 closed."
+    ], 
+    "stdout": "85%91%\r\n", 
+    "stdout_lines": [
+        "85%91%"
+    ]
+}
+15.146 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.15.146 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.15.146 closed."
+    ], 
+    "stdout": "66%87%\r\n", 
+    "stdout_lines": [
+        "66%87%"
+    ]
+}
+12.78 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.12.78 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.12.78 closed."
+    ], 
+    "stdout": "57%100%\r\n", 
+    "stdout_lines": [
+        "57%100%"
+    ]
+}
+12.174 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.12.174 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.12.174 closed."
+    ], 
+    "stdout": "96%96%\r\n", 
+    "stdout_lines": [
+        "96%96%"
+    ]
+}
+12.74 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.12.74 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.12.74 closed."
+    ], 
+    "stdout": "74%95%\r\n", 
+    "stdout_lines": [
+        "74%95%"
+    ]
+}
+11.238 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.11.238 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.11.238 closed."
+    ], 
+    "stdout": "54%65%\r\n", 
+    "stdout_lines": [
+        "54%65%"
+    ]
+}
+11.146 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.11.146 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.11.146 closed."
+    ], 
+    "stdout": "70%99%\r\n", 
+    "stdout_lines": [
+        "70%99%"
+    ]
+}
+12.66 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.12.66 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.12.66 closed."
+    ], 
+    "stdout": "90%98%\r\n", 
+    "stdout_lines": [
+        "90%98%"
+    ]
+}
+11.150 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.11.150 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.11.150 closed."
+    ], 
+    "stdout": "22%100%\r\n", 
+    "stdout_lines": [
+        "22%100%"
+    ]
+}
+11.126 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.11.126 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.11.126 closed."
+    ], 
+    "stdout": "32%93%\r\n", 
+    "stdout_lines": [
+        "32%93%"
+    ]
+}
+10.142 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.142 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.142 closed."
+    ], 
+    "stdout": "57%96%\r\n", 
+    "stdout_lines": [
+        "57%96%"
+    ]
+}
+10.134 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.134 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.134 closed."
+    ], 
+    "stdout": "78%89%\r\n", 
+    "stdout_lines": [
+        "78%89%"
+    ]
+}
+10.194 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.194 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.194 closed."
+    ], 
+    "stdout": "79%100%\r\n", 
+    "stdout_lines": [
+        "79%100%"
+    ]
+}
+10.138 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.138 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.138 closed."
+    ], 
+    "stdout": "68%92%\r\n", 
+    "stdout_lines": [
+        "68%92%"
+    ]
+}
+10.122 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.122 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.122 closed."
+    ], 
+    "stdout": "66%88%\r\n", 
+    "stdout_lines": [
+        "66%88%"
+    ]
+}
+10.90 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.90 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.90 closed."
+    ], 
+    "stdout": "54%100%\r\n", 
+    "stdout_lines": [
+        "54%100%"
+    ]
+}
+10.238 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.238 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.238 closed."
+    ], 
+    "stdout": "80%76%\r\n", 
+    "stdout_lines": [
+        "80%76%"
+    ]
+}
+10.118 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.118 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.118 closed."
+    ], 
+    "stdout": "89%91%\r\n", 
+    "stdout_lines": [
+        "89%91%"
+    ]
+}
+10.98 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.10.98 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.10.98 closed."
+    ], 
+    "stdout": "62%99%\r\n", 
+    "stdout_lines": [
+        "62%99%"
+    ]
+}
+9.226 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.9.226 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+9.174 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.174 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.174 closed."
+    ], 
+    "stdout": "80%21%0\r\n", 
+    "stdout_lines": [
+        "80%21%0"
+    ]
+}
+9.214 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.214 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.214 closed."
+    ], 
+    "stdout": "72%85%\r\n", 
+    "stdout_lines": [
+        "72%85%"
+    ]
+}
+9.166 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.166 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.166 closed."
+    ], 
+    "stdout": "60%100%\r\n", 
+    "stdout_lines": [
+        "60%100%"
+    ]
+}
+9.170 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.170 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.170 closed."
+    ], 
+    "stdout": "79%98%\r\n", 
+    "stdout_lines": [
+        "79%98%"
+    ]
+}
+9.134 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.134 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.134 closed."
+    ], 
+    "stdout": "70%95%\r\n", 
+    "stdout_lines": [
+        "70%95%"
+    ]
+}
+9.110 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.9.110 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+9.26 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.26 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.26 closed."
+    ], 
+    "stdout": "90%99%\r\n", 
+    "stdout_lines": [
+        "90%99%"
+    ]
+}
+9.138 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.138 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.138 closed."
+    ], 
+    "stdout": "74%99%\r\n", 
+    "stdout_lines": [
+        "74%99%"
+    ]
+}
+8.226 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.226 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.226 closed."
+    ], 
+    "stdout": "79%100%\r\n", 
+    "stdout_lines": [
+        "79%100%"
+    ]
+}
+8.222 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.8.222 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+8.214 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.214 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.214 closed."
+    ], 
+    "stdout": "80%99%\r\n", 
+    "stdout_lines": [
+        "80%99%"
+    ]
+}
+9.22 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.22 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.22 closed."
+    ], 
+    "stdout": "91%97%\r\n", 
+    "stdout_lines": [
+        "91%97%"
+    ]
+}
+8.218 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.218 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.218 closed."
+    ], 
+    "stdout": "84%96%\r\n", 
+    "stdout_lines": [
+        "84%96%"
+    ]
+}
+8.130 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.130 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.130 closed."
+    ], 
+    "stdout": "76%90%\r\n", 
+    "stdout_lines": [
+        "76%90%"
+    ]
+}
+8.198 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.198 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.198 closed."
+    ], 
+    "stdout": "84%100%\r\n", 
+    "stdout_lines": [
+        "84%100%"
+    ]
+}
+8.178 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.178 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.178 closed."
+    ], 
+    "stdout": "87%96%\r\n", 
+    "stdout_lines": [
+        "87%96%"
+    ]
+}
+8.126 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.126 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.126 closed."
+    ], 
+    "stdout": "55%97%\r\n", 
+    "stdout_lines": [
+        "55%97%"
+    ]
+}
+8.102 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.8.102 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+8.66 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.8.66 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+1.190 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.190 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.190 closed."
+    ], 
+    "stdout": "66%54%\r\n", 
+    "stdout_lines": [
+        "66%54%"
+    ]
+}
+7.82 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.82 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.82 closed."
+    ], 
+    "stdout": "62%98%\r\n", 
+    "stdout_lines": [
+        "62%98%"
+    ]
+}
+8.114 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.114 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.114 closed."
+    ], 
+    "stdout": "78%79%\r\n", 
+    "stdout_lines": [
+        "78%79%"
+    ]
+}
+8.98 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.98 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.98 closed."
+    ], 
+    "stdout": "79%54%\r\n", 
+    "stdout_lines": [
+        "79%54%"
+    ]
+}
+8.58 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.8.58 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+8.14 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.14 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.14 closed."
+    ], 
+    "stdout": "81%83%\r\n", 
+    "stdout_lines": [
+        "81%83%"
+    ]
+}
+8.134 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.134 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.134 closed."
+    ], 
+    "stdout": "83%77%\r\n", 
+    "stdout_lines": [
+        "83%77%"
+    ]
+}
+8.46 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.46 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.46 closed."
+    ], 
+    "stdout": "62%100%\r\n", 
+    "stdout_lines": [
+        "62%100%"
+    ]
+}
+8.42 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.42 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.42 closed."
+    ], 
+    "stdout": "77%98%\r\n", 
+    "stdout_lines": [
+        "77%98%"
+    ]
+}
+8.30 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.30 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.30 closed."
+    ], 
+    "stdout": "68%96%\r\n", 
+    "stdout_lines": [
+        "68%96%"
+    ]
+}
+8.54 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.54 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.54 closed."
+    ], 
+    "stdout": "90%100%\r\n", 
+    "stdout_lines": [
+        "90%100%"
+    ]
+}
+7.94 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.94 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.94 closed."
+    ], 
+    "stdout": "91%100%\r\n", 
+    "stdout_lines": [
+        "91%100%"
+    ]
+}
+8.38 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.8.38 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.8.38 closed."
+    ], 
+    "stdout": "72%81%\r\n", 
+    "stdout_lines": [
+        "72%81%"
+    ]
+}
+7.222 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.222 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.222 closed."
+    ], 
+    "stdout": "89%56%\r\n", 
+    "stdout_lines": [
+        "89%56%"
+    ]
+}
+7.206 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.206 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.206 closed."
+    ], 
+    "stdout": "76%97%\r\n", 
+    "stdout_lines": [
+        "76%97%"
+    ]
+}
+7.130 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.130 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.130 closed."
+    ], 
+    "stdout": "81%70%\r\n", 
+    "stdout_lines": [
+        "81%70%"
+    ]
+}
+7.122 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.122 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.122 closed."
+    ], 
+    "stdout": "73%98%\r\n", 
+    "stdout_lines": [
+        "73%98%"
+    ]
+}
+7.70 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.70 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.70 closed."
+    ], 
+    "stdout": "81%98%\r\n", 
+    "stdout_lines": [
+        "81%98%"
+    ]
+}
+5.10 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.10 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.10 closed."
+    ], 
+    "stdout": "80%100%\r\n", 
+    "stdout_lines": [
+        "80%100%"
+    ]
+}
+7.6 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.6 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.6 closed."
+    ], 
+    "stdout": "72%95%\r\n", 
+    "stdout_lines": [
+        "72%95%"
+    ]
+}
+7.42 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.42 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.42 closed."
+    ], 
+    "stdout": "69%56%\r\n", 
+    "stdout_lines": [
+        "69%56%"
+    ]
+}
+5.150 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.150 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.150 closed."
+    ], 
+    "stdout": "87%91%\r\n", 
+    "stdout_lines": [
+        "87%91%"
+    ]
+}
+6.250 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.250 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.250 closed."
+    ], 
+    "stdout": "84%96%\r\n", 
+    "stdout_lines": [
+        "84%96%"
+    ]
+}
+6.230 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.230 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.230 closed."
+    ], 
+    "stdout": "60%100%\r\n", 
+    "stdout_lines": [
+        "60%100%"
+    ]
+}
+6.234 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.234 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.234 closed."
+    ], 
+    "stdout": "74%100%\r\n", 
+    "stdout_lines": [
+        "74%100%"
+    ]
+}
+6.218 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.218 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.218 closed."
+    ], 
+    "stdout": "88%54%\r\n", 
+    "stdout_lines": [
+        "88%54%"
+    ]
+}
+5.214 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.214 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.214 closed."
+    ], 
+    "stdout": "86%98%\r\n", 
+    "stdout_lines": [
+        "86%98%"
+    ]
+}
+6.202 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.202 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.202 closed."
+    ], 
+    "stdout": "68%96%\r\n", 
+    "stdout_lines": [
+        "68%96%"
+    ]
+}
+5.62 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.62 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.62 closed."
+    ], 
+    "stdout": "83%95%\r\n", 
+    "stdout_lines": [
+        "83%95%"
+    ]
+}
+6.150 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.150 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.150 closed."
+    ], 
+    "stdout": "66%55%\r\n", 
+    "stdout_lines": [
+        "66%55%"
+    ]
+}
+6.214 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.214 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.214 closed."
+    ], 
+    "stdout": "69%97%\r\n", 
+    "stdout_lines": [
+        "69%97%"
+    ]
+}
+5.138 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.138 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.138 closed."
+    ], 
+    "stdout": "72%55%\r\n", 
+    "stdout_lines": [
+        "72%55%"
+    ]
+}
+6.142 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.142 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.142 closed."
+    ], 
+    "stdout": "56%100%\r\n", 
+    "stdout_lines": [
+        "56%100%"
+    ]
+}
+6.118 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.118 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.118 closed."
+    ], 
+    "stdout": "69%55%\r\n", 
+    "stdout_lines": [
+        "69%55%"
+    ]
+}
+6.74 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.74 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.74 closed."
+    ], 
+    "stdout": "62%95%\r\n", 
+    "stdout_lines": [
+        "62%95%"
+    ]
+}
+4.70 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.70 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.70 closed."
+    ], 
+    "stdout": "86%99%\r\n", 
+    "stdout_lines": [
+        "86%99%"
+    ]
+}
+6.54 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.54 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.54 closed."
+    ], 
+    "stdout": "81%92%\r\n", 
+    "stdout_lines": [
+        "81%92%"
+    ]
+}
+6.38 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.38 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.38 closed."
+    ], 
+    "stdout": "88%55%\r\n", 
+    "stdout_lines": [
+        "88%55%"
+    ]
+}
+5.70 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.70 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.70 closed."
+    ], 
+    "stdout": "74%96%\r\n", 
+    "stdout_lines": [
+        "74%96%"
+    ]
+}
+5.198 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.198 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.198 closed."
+    ], 
+    "stdout": "80%81%\r\n", 
+    "stdout_lines": [
+        "80%81%"
+    ]
+}
+7.146 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.146 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.146 closed."
+    ], 
+    "stdout": "83%71%\r\n", 
+    "stdout_lines": [
+        "83%71%"
+    ]
+}
+5.146 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.146 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.146 closed."
+    ], 
+    "stdout": "84%94%\r\n", 
+    "stdout_lines": [
+        "84%94%"
+    ]
+}
+6.42 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.42 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.42 closed."
+    ], 
+    "stdout": "58%90%\r\n", 
+    "stdout_lines": [
+        "58%90%"
+    ]
+}
+6.58 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.58 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.58 closed."
+    ], 
+    "stdout": "62%80%\r\n", 
+    "stdout_lines": [
+        "62%80%"
+    ]
+}
+5.182 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.182 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.182 closed."
+    ], 
+    "stdout": "67%100%\r\n", 
+    "stdout_lines": [
+        "67%100%"
+    ]
+}
+5.58 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.58 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.58 closed."
+    ], 
+    "stdout": "45%91%\r\n", 
+    "stdout_lines": [
+        "45%91%"
+    ]
+}
+5.30 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.30 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.30 closed."
+    ], 
+    "stdout": "74%95%\r\n", 
+    "stdout_lines": [
+        "74%95%"
+    ]
+}
+4.246 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.246 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.246 closed."
+    ], 
+    "stdout": "65%93%\r\n", 
+    "stdout_lines": [
+        "65%93%"
+    ]
+}
+4.230 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.230 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.230 closed."
+    ], 
+    "stdout": "83%59%\r\n", 
+    "stdout_lines": [
+        "83%59%"
+    ]
+}
+5.54 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.54 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.54 closed."
+    ], 
+    "stdout": "85%95%\r\n", 
+    "stdout_lines": [
+        "85%95%"
+    ]
+}
+4.218 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.4.218 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+5.46 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.46 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.46 closed."
+    ], 
+    "stdout": "79%79%\r\n", 
+    "stdout_lines": [
+        "79%79%"
+    ]
+}
+5.74 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.74 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.74 closed."
+    ], 
+    "stdout": "82%99%\r\n", 
+    "stdout_lines": [
+        "82%99%"
+    ]
+}
+4.198 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.198 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.198 closed."
+    ], 
+    "stdout": "53%74%\r\n", 
+    "stdout_lines": [
+        "53%74%"
+    ]
+}
+3.218 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.218 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.218 closed."
+    ], 
+    "stdout": "78%79%\r\n", 
+    "stdout_lines": [
+        "78%79%"
+    ]
+}
+3.146 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.146 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.146 closed."
+    ], 
+    "stdout": "80%61%\r\n", 
+    "stdout_lines": [
+        "80%61%"
+    ]
+}
+3.118 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.118 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.118 closed."
+    ], 
+    "stdout": "54%99%\r\n", 
+    "stdout_lines": [
+        "54%99%"
+    ]
+}
+4.50 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.50 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.50 closed."
+    ], 
+    "stdout": "79%87%\r\n", 
+    "stdout_lines": [
+        "79%87%"
+    ]
+}
+3.226 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.226 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.226 closed."
+    ], 
+    "stdout": "87%100%\r\n", 
+    "stdout_lines": [
+        "87%100%"
+    ]
+}
+5.90 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.90 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.90 closed."
+    ], 
+    "stdout": "86%85%\r\n", 
+    "stdout_lines": [
+        "86%85%"
+    ]
+}
+5.222 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.222 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.222 closed."
+    ], 
+    "stdout": "45%96%\r\n", 
+    "stdout_lines": [
+        "45%96%"
+    ]
+}
+4.26 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.26 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.26 closed."
+    ], 
+    "stdout": "75%93%\r\n", 
+    "stdout_lines": [
+        "75%93%"
+    ]
+}
+4.58 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.58 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.58 closed."
+    ], 
+    "stdout": "72%88%\r\n", 
+    "stdout_lines": [
+        "72%88%"
+    ]
+}
+4.214 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.214 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.214 closed."
+    ], 
+    "stdout": "63%91%\r\n", 
+    "stdout_lines": [
+        "63%91%"
+    ]
+}
+6.34 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.34 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.34 closed."
+    ], 
+    "stdout": "76%98%\r\n", 
+    "stdout_lines": [
+        "76%98%"
+    ]
+}
+4.178 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.178 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.178 closed."
+    ], 
+    "stdout": "72%87%\r\n", 
+    "stdout_lines": [
+        "72%87%"
+    ]
+}
+7.106 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.106 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.106 closed."
+    ], 
+    "stdout": "82%78%\r\n", 
+    "stdout_lines": [
+        "82%78%"
+    ]
+}
+3.142 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.142 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.142 closed."
+    ], 
+    "stdout": "73%89%\r\n", 
+    "stdout_lines": [
+        "73%89%"
+    ]
+}
+6.206 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.6.206 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.6.206 closed."
+    ], 
+    "stdout": "87%97%\r\n", 
+    "stdout_lines": [
+        "87%97%"
+    ]
+}
+3.238 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.238 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.238 closed."
+    ], 
+    "stdout": "86%96%\r\n", 
+    "stdout_lines": [
+        "86%96%"
+    ]
+}
+4.74 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.74 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.74 closed."
+    ], 
+    "stdout": "89%100%\r\n", 
+    "stdout_lines": [
+        "89%100%"
+    ]
+}
+3.70 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.70 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.70 closed."
+    ], 
+    "stdout": "89%100%\r\n", 
+    "stdout_lines": [
+        "89%100%"
+    ]
+}
+3.50 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.50 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.50 closed."
+    ], 
+    "stdout": "97%100%\r\n", 
+    "stdout_lines": [
+        "97%100%"
+    ]
+}
+17.114 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.17.114 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.17.114 closed."
+    ], 
+    "stdout": "64%67%\r\n", 
+    "stdout_lines": [
+        "64%67%"
+    ]
+}
+5.170 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.5.170 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.5.170 closed."
+    ], 
+    "stdout": "63%56%\r\n", 
+    "stdout_lines": [
+        "63%56%"
+    ]
+}
+3.46 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.3.46 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+3.62 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.62 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.62 closed."
+    ], 
+    "stdout": "84%95%\r\n", 
+    "stdout_lines": [
+        "84%95%"
+    ]
+}
+4.78 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.4.78 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+4.54 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.54 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.54 closed."
+    ], 
+    "stdout": "54%97%\r\n", 
+    "stdout_lines": [
+        "54%97%"
+    ]
+}
+3.130 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.130 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.130 closed."
+    ], 
+    "stdout": "86%96%\r\n", 
+    "stdout_lines": [
+        "86%96%"
+    ]
+}
+3.14 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.3.14 port 22: No route to host\r\n", 
+    "unreachable": true
+}
+3.10 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.3.10 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+3.102 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.102 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.102 closed."
+    ], 
+    "stdout": "92%47%\r\n", 
+    "stdout_lines": [
+        "92%47%"
+    ]
+}
+3.182 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.182 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.182 closed."
+    ], 
+    "stdout": "74%54%\r\n", 
+    "stdout_lines": [
+        "74%54%"
+    ]
+}
+3.22 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.22 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.22 closed."
+    ], 
+    "stdout": "91%60%\r\n", 
+    "stdout_lines": [
+        "91%60%"
+    ]
+}
+3.30 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.30 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.30 closed."
+    ], 
+    "stdout": "88%89%\r\n", 
+    "stdout_lines": [
+        "88%89%"
+    ]
+}
+3.18 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.18 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.18 closed."
+    ], 
+    "stdout": "44%59%\r\n", 
+    "stdout_lines": [
+        "44%59%"
+    ]
+}
+3.106 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.106 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.106 closed."
+    ], 
+    "stdout": "79%86%\r\n", 
+    "stdout_lines": [
+        "79%86%"
+    ]
+}
+27.214 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.27.214 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.27.214 closed."
+    ], 
+    "stdout": "54%97%\r\n", 
+    "stdout_lines": [
+        "54%97%"
+    ]
+}
+3.110 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.110 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.110 closed."
+    ], 
+    "stdout": "56%80%\r\n", 
+    "stdout_lines": [
+        "56%80%"
+    ]
+}
+2.206 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.206 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.206 closed."
+    ], 
+    "stdout": "96%82%\r\n", 
+    "stdout_lines": [
+        "96%82%"
+    ]
+}
+2.158 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.158 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.158 closed."
+    ], 
+    "stdout": "74%95%\r\n", 
+    "stdout_lines": [
+        "74%95%"
+    ]
+}
+2.82 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.82 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.82 closed."
+    ], 
+    "stdout": "48%95%\r\n", 
+    "stdout_lines": [
+        "48%95%"
+    ]
+}
+4.30 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.30 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.30 closed."
+    ], 
+    "stdout": "79%98%\r\n", 
+    "stdout_lines": [
+        "79%98%"
+    ]
+}
+2.142 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.142 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.142 closed."
+    ], 
+    "stdout": "89%100%\r\n", 
+    "stdout_lines": [
+        "89%100%"
+    ]
+}
+2.10 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.10 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.10 closed."
+    ], 
+    "stdout": "81%100%\r\n", 
+    "stdout_lines": [
+        "81%100%"
+    ]
+}
+2.178 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.178 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.178 closed."
+    ], 
+    "stdout": "94%100%\r\n", 
+    "stdout_lines": [
+        "94%100%"
+    ]
+}
+2.150 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.150 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.150 closed."
+    ], 
+    "stdout": "91%71%\r\n", 
+    "stdout_lines": [
+        "91%71%"
+    ]
+}
+2.130 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.130 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.130 closed."
+    ], 
+    "stdout": "76%100%\r\n", 
+    "stdout_lines": [
+        "76%100%"
+    ]
+}
+2.126 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.2.126 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+2.46 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.46 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.46 closed."
+    ], 
+    "stdout": "96%85%\r\n", 
+    "stdout_lines": [
+        "96%85%"
+    ]
+}
+2.62 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.2.62 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+2.90 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.90 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.90 closed."
+    ], 
+    "stdout": "89%100%\r\n", 
+    "stdout_lines": [
+        "89%100%"
+    ]
+}
+3.122 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.122 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.122 closed."
+    ], 
+    "stdout": "93%91%\r\n", 
+    "stdout_lines": [
+        "93%91%"
+    ]
+}
+2.134 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.2.134 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.2.134 closed."
+    ], 
+    "stdout": "89%89%\r\n", 
+    "stdout_lines": [
+        "89%89%"
+    ]
+}
+7.154 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.7.154 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+4.34 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.4.34 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.4.34 closed."
+    ], 
+    "stdout": "87%100%\r\n", 
+    "stdout_lines": [
+        "87%100%"
+    ]
+}
+9.114 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.9.114 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.9.114 closed."
+    ], 
+    "stdout": "82%100%\r\n", 
+    "stdout_lines": [
+        "82%100%"
+    ]
+}
+1.118 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.118 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.118 closed."
+    ], 
+    "stdout": "72%85%\r\n", 
+    "stdout_lines": [
+        "72%85%"
+    ]
+}
+7.190 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.7.190 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.7.190 closed."
+    ], 
+    "stdout": "47%72%\r\n", 
+    "stdout_lines": [
+        "47%72%"
+    ]
+}
+1.26 | FAILED! => {
+    "changed": true, 
+    "msg": "non-zero return code", 
+    "rc": 1, 
+    "stderr": "Shared connection to 10.8.1.26 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.26 closed."
+    ], 
+    "stdout": "Traceback (most recent call last):\r\n  File \"/root/.ansible/tmp/ansible-tmp-1613795024.77-248835880434130/test.py\", line 6, in <module>\r\n    with open(\"/etc/redhat-release\",'r') as f:\r\nIOError: [Errno 2] No such file or directory: '/etc/redhat-release'\r\n", 
+    "stdout_lines": [
+        "Traceback (most recent call last):", 
+        "  File \"/root/.ansible/tmp/ansible-tmp-1613795024.77-248835880434130/test.py\", line 6, in <module>", 
+        "    with open(\"/etc/redhat-release\",'r') as f:", 
+        "IOError: [Errno 2] No such file or directory: '/etc/redhat-release'"
+    ]
+}
+15.226 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.15.226 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.15.226 closed."
+    ], 
+    "stdout": "62%86%\r\n", 
+    "stdout_lines": [
+        "62%86%"
+    ]
+}
+4.22 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.4.22 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+1.62 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.62 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.62 closed."
+    ], 
+    "stdout": "78%73%\r\n", 
+    "stdout_lines": [
+        "78%73%"
+    ]
+}
+23.74 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.23.74 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.23.74 closed."
+    ], 
+    "stdout": "44%77%\r\n", 
+    "stdout_lines": [
+        "44%77%"
+    ]
+}
+1.134 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.134 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.134 closed."
+    ], 
+    "stdout": "44%88%\r\n", 
+    "stdout_lines": [
+        "44%88%"
+    ]
+}
+3.98 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.3.98 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+3.234 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.3.234 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.3.234 closed."
+    ], 
+    "stdout": "55%72%\r\n", 
+    "stdout_lines": [
+        "55%72%"
+    ]
+}
+1.206 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.206 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.206 closed."
+    ], 
+    "stdout": "80%94%\r\n", 
+    "stdout_lines": [
+        "80%94%"
+    ]
+}
+1.22 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.22 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.22 closed."
+    ], 
+    "stdout": "75%97%\r\n", 
+    "stdout_lines": [
+        "75%97%"
+    ]
+}
+1.6 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.6 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.6 closed."
+    ], 
+    "stdout": "55%65%\r\n", 
+    "stdout_lines": [
+        "55%65%"
+    ]
+}
+1.146 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.146 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.146 closed."
+    ], 
+    "stdout": "45%91%\r\n", 
+    "stdout_lines": [
+        "45%91%"
+    ]
+}
+2.70 | UNREACHABLE! => {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: connect to host 10.8.2.70 port 22: Connection timed out\r\n", 
+    "unreachable": true
+}
+1.186 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.186 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.186 closed."
+    ], 
+    "stdout": "58%94%\r\n", 
+    "stdout_lines": [
+        "58%94%"
+    ]
+}
+1.130 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.130 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.130 closed."
+    ], 
+    "stdout": "69%64%\r\n", 
+    "stdout_lines": [
+        "69%64%"
+    ]
+}
+1.10 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.10 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.10 closed."
+    ], 
+    "stdout": "81%73%\r\n", 
+    "stdout_lines": [
+        "81%73%"
+    ]
+}
+1.66 | CHANGED => {
+    "changed": true, 
+    "rc": 0, 
+    "stderr": "Shared connection to 10.8.1.66 closed.\r\n", 
+    "stderr_lines": [
+        "Shared connection to 10.8.1.66 closed."
+    ], 
+    "stdout": "68%66%\r\n", 
+    "stdout_lines": [
+        "68%66%"
+    ]
+}

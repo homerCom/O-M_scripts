@@ -1,0 +1,6 @@
+sed -i '/ssl on;/d' /usr/local/nginx/conf/conf.d/*.conf
+sed -i 's/listen       443/listen       443 ssl/g' /usr/local/nginx/conf/conf.d/*.conf
+sed -i 's/listen       5008;/listen       5008 ssl;/g' /usr/local/nginx/conf/conf.d/*.conf
+sed -i 's/listen       5009;/listen       5009 ssl;/g' /usr/local/nginx/conf/conf.d/*.conf
+sed -i 's/listen       5010;/listen       5010 ssl;/g' /usr/local/nginx/conf/conf.d/*.conf
+sed -i 's/listen       5011;/listen       5011 ssl;/g' /usr/local/nginx/conf/conf.d/*.conf

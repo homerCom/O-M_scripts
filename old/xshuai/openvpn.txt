@@ -1,0 +1,12 @@
+cd /etc/openvpn/easyrsa/
+/etc/openvpn/easyrsa/easyrsa build-client-full 02 nopass
+mkdir -p /etc/openvpn/client/02
+cp /etc/openvpn/easyrsa/pki/ca.crt /etc/openvpn/client/02/ca.crt
+cp /etc/openvpn/easyrsa/pki/issued/02.crt /etc/openvpn/client/02/client.crt
+rm -rf /etc/openvpn/easyrsa/pki/issued/02.crt
+cp /etc/openvpn/easyrsa/pki/private/02.key /etc/openvpn/client/02/client.key
+rm -rf /etc/openvpn/easyrsa/pki/private/02.key
+cp /etc/openvpn/easyrsa/pki/ta.key /etc/openvpn/client/02/ta.key
+cp /etc/openvpn/client/client.conf /etc/openvpn/client/02/
+cd /etc/openvpn/client/02/
+tar -zcvf vpn2.tar.gz *

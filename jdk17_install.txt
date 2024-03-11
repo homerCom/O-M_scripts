@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# 检测是否为root用户
+if [ "$(id -u)" != "0" ]; then
+    echo "请使用root用户运行此脚本"
+    exit 1
+fi
+
+# 检测系统是否为CentOS 7
+if [ ! -e /etc/redhat-release ] || ! grep -q "CentOS Linux release 7" /etc/redhat-release; then
+    echo "此脚本仅支持CentOS 7"
+    exit 1
+fi
+
+# 设置JDK安装目录
+jdk_install_dir="/usr/local/jdk"
+
+# 创建安装目录
+mkdir -p "$jdk_install_dir"
+
+# 下载jdk
+wget -P /tmp/ https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+
+# 解压到指定目录
+tar -zxvf /tmp/jdk-17_linux-x64_bin.tar.gz -C "$jdk_install_dir" --strip-components=1
+
+# 设置环境变量
+echo "export JAVA_HOME=$jdk_install_dir" >> /etc/profile
+echo "export PATH=\$JAVA_HOME/bin:\$PATH" >> /etc/profile
+echo "export CLASSPATH=.:\$JAVA_HOME/lib/dt.jar:\$JAVA_HOME/lib/tools.jar" >> /etc/profile
+
+# 使环境变量生效
+source /etc/profile
+
+echo "JDK 17安装完成，并已设置环境变量。"

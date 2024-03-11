@@ -1,0 +1,14 @@
+1、新建项目
+django-admin startproject 项目名称
+
+2、新建应用
+pyhton manage.py startapp 应用名称
+
+3、运行服务
+python mannage.py runserver 0.0.0.0:8000
+
+4、生成迁移文件
+python manage.py makemigrations
+
+5、根据迁移文件生成数据表
+python manage.py migrate

@@ -1,0 +1,25 @@
+一、安装sqlite3
+下载安装包:wget https://www.sqlite.org/2018/sqlite-autoconf-3240000.tar.gz
+
+解压：tar -xvzf sqlite-autoconf-3240000.tar.gz
+
+进入目录:cd sqlite-autoconf-3240000/
+
+编译:./configure --prefix=/usr/local/sqlite
+
+安装 ：make -j4&&sudo make install
+
+
+
+二、安装python3.6
+wget https://www.python.org/ftp/python/3.6.6/Python-3.6.6.tgz
+解压：tar -zxvf Python-3.6.6.tgz
+进入目录：cd Python-3.6.6
+修改配置文件：vim setup.py
+	查找" sqlite_inc_paths" 新增
+	'/usr/local/sqlite/include',
+	'/usr/local/sqlite/include/sqlite3',
+编译：./configure --enable-loadable-sqlite-extensions --prefix=/usr/local/python3
+安装：make&&make install 
+cp /usr/local/lib/python3.6/lib-dynload/_sqlite3.cpython-36m-x86_64-linux-gnu.so /usr/local/python3/lib/python3.6/lib-dynload/_sqlite3.so
+

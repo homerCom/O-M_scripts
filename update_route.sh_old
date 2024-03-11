@@ -1,0 +1,21 @@
+#!/bin/bash 
+#author:lucaszhang@techtrex.com
+#date:2022.10.27
+
+#stop nginx and reportserver services
+systemctl stop nginx
+cd /KiosoftApplications/ServerApps/TTI_ReportServer && docker-compose stop
+
+#backup mysql
+today=`date +%Y%m%d`
+cd /back/mysql/
+mkdir bak-$today
+cd bak-$today
+mysqldump -ukiosoft -p123456 laundry > laundry.sql
+mysqldump -ukiosoft -p123456 laundry_portal > lp.sql
+mysqldump -ukiosoft -p123456 value_code > vc.sql
+mysqldump -ukiosoft -p123456 web_lcms > ccm.sql
+gzip ./*
+
+ls -lh .
+pwd

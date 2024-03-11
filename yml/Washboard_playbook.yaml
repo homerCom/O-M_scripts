@@ -1,0 +1,395 @@
+---
+- hosts: all
+  user: root
+  tasks:
+   - name: stop firewalld
+     systemd:
+       name: firewalld
+       state: stopped
+       enabled: no
+   - name: create www group
+     group:
+       name: www
+       state: present
+   - name: create www user
+     user:
+       name: www
+       group: www
+       shell: /sbin/nologin
+       state: present
+       
+   - name: create /var/www directory
+     file:
+       path: /var/www
+       state: directory
+       owner: www
+       group: www
+       mode: 0755
+   - name: install php v7.3.7 dependency
+     yum:
+       name:
+         - gcc
+         - gcc-c++
+         - libjpeg
+         - libjpeg-devel
+         - libpng
+         - libpng-devel
+         - freetype
+         - freetype-devel
+         - libxml2
+         - libxml2-devel
+         - zlib
+         - zlib-devel
+         - glibc
+         - glibc-devel
+         - glib2
+         - glib2-devel
+         - bzip2
+         - bzip2-devel
+         - curl
+         - curl-devel
+         - openssl
+         - openssl-devel
+         - libwebp
+         - libwebp-devel
+         - readline-devel
+       state: present
+
+   - name: uncompress libzip-1.2.0.tar.gz
+     unarchive: 
+       src: /opt/software/libzip-1.2.0.tar.gz
+       dest: /usr/local/src/
+   - name: install libzip
+     shell: cd /usr/local/src/libzip-1.2.0/ && ./configure --prefix=/usr/local/libzip && make -j 2 && make install && cp /usr/local/libzip/lib/libzip/include/zipconf.h /usr/local/include/zipconf.h
+   
+   - name: configure lib envirement
+     shell: /bin/echo {{ item }} >> /etc/ld.so.conf.d/lib.conf && ldconfig -v
+     with_items:
+       - /usr/local/libzip/lib64
+       - /usr/local/libzip/lib
+       - /usr/lib
+       - /usr/lib64
+   - name: uncompress php-7.3.7.tar.gz
+     unarchive:
+       src: /opt/software/php-7.3.7.tar.gz
+       dest: /usr/local/src/
+   - name: install php-7.3.7
+     shell: cd /usr/local/src/php-7.3.7 && ./configure --prefix=/usr/local/php --with-config-file-path=/usr/local/php/etc --with-mysqli=mysqlnd --with-iconv-dir=/usr --with-gd --with-freetype-dir=/usr --with-jpeg-dir=/usr --with-png-dir=/usr --with-webp-dir=/usr --with-zlib --disable-rpath --enable-bcmath --enable-shmop --enable-sysvsem --enable-inline-optimization --enable-mbregex --enable-fpm --enable-mbstring --with-openssl --with-mhash --enable-pcntl --enable-sockets --enable-soap --without-pear --with-bz2 --enable-calendar --enable-ftp --enable-ctype --enable-exif --disable-ipv6  --enable-pdo --with-pdo-mysql=mysqlnd --enable-phar --with-curl --with-tsrm-pthreads  --enable-wddx --with-libzip=/usr/local/libzip --with-gettext --enable-zip --with-readline --enable-opcache && make -j 2 && make  install
+   - name: create php link
+     file:
+       src: /usr/local/php/bin/php
+       dest: /usr/bin/php
+       state: link
+   - name: copy run file
+     copy: 
+       src: /opt/software/init/php-fpm
+       dest: /etc/init.d/php-fpm
+       mode: 0755
+   - name: chkconfig php-fpm
+     shell: chkconfig --level 234 php-fpm on
+   - name: add php to profile
+     shell: echo -e 'export PATH=$PATH:/usr/local/php/bin' >> /etc/profile && source /etc/profile
+   - name: copy php file
+     copy:
+       src: "{{ item }}"
+       dest: /usr/local/php/etc/
+     with_items:
+       - /opt/software/config/php.ini
+       - /opt/software/config/php-fpm.conf
+     
+   - name: copy php www.conf
+     copy:
+       src: /opt/software/config/www.conf
+       dest: /usr/local/php/etc/php-fpm.d/www.conf
+   - name: copy
+     copy:
+       src: /opt/software/config/so/
+       dest: /usr/local/php/lib/php/extensions/no-debug-non-zts-20180731/
+   - name: create /var/www directory
+     file:
+       path: /usr/local/php/etc/ssl
+       state: directory
+       owner: www
+       group: www
+       mode: 0755
+   - name: copy file
+     copy:
+       src: /opt/software/config/cert/curl-ca-bundle.crt
+       dest: /usr/local/php/etc/ssl/
+   - name: start php-fpm
+     systemd:
+       name: php-fpm
+       state: started
+       enabled: yes
+
+ #  install nginx v1.20.1
+   - name: yum install nginx v1.20.1 dependency
+     yum:
+       name:
+         - gcc
+         - gcc-c++
+         - autoconf
+         - automake
+         - zlib
+         - zlib-devel
+         - openssl
+         - openssl-devel
+         - pcre*
+   - name: create nginx group
+     group:
+       name: nginx
+       state: present
+   - name: create nginx user
+     user:
+       name: nginx
+       group: nginx
+       shell: /sbin/nologin
+       state: present
+   - name: uncompress nginx-1.20.1.tar.gz
+     unarchive:
+       src: /opt/software/nginx-1.20.1.tar.gz
+       dest: /usr/local/src/
+   - name: install nginx v1.20.1
+     shell: cd /usr/local/src/nginx-1.20.1 && ./configure --prefix=/usr/local/nginx --with-http_dav_module --with-http_flv_module --with-http_gunzip_module --with-http_gzip_static_module --with-http_mp4_module --with-http_random_index_module --with-http_realip_module --with-http_secure_link_module --with-http_slice_module --with-http_ssl_module --with-http_stub_status_module --with-http_sub_module --with-http_v2_module --with-mail --with-mail_ssl_module --with-stream --with-stream_realip_module --with-stream_ssl_module --with-stream_ssl_preread_module --with-cc-opt='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -fPIC' --with-ld-opt='-Wl,-z,relro -Wl,-z,now -pie'
+
+   - name: make install nginx
+     shell: cd /usr/local/src/nginx-1.20.1 && make -j 2 && make install
+     tags:
+         - test
+   - name: link nginx
+     file:
+       src: /usr/local/nginx/sbin/nginx
+       dest: /usr/bin/nginx
+       state: link
+   - name: mv  nginx.conf
+     shell:  mv /usr/local/nginx/conf/nginx.conf /usr/local/nginx/conf/nginx.conf.origin
+   - name: copy script directory
+     copy:
+       src: /opt/software/script
+       dest: /
+   - name: copy nginx config file
+     copy:
+       src: /opt/software/config/nginx/nginx.conf
+       dest: /usr/local/nginx/conf/nginx.conf
+
+   - name: create nginx ssl directory
+     file:
+       path: /usr/local/nginx/conf/ssl
+       state: directory
+       owner: nginx
+       group: nginx
+       mode: 0755
+   - name: create conf.d directory
+     file:
+       path: /usr/local/nginx/conf/conf.d
+       state: directory
+       owner: nginx
+       group: nginx
+       mode: 0755
+   - name: copy nginx conf.d file
+     copy:
+       src: /opt/software/config/nginx/conf.d/
+       dest: /usr/local/nginx/conf/conf.d/
+   - name: copy nginx rrun file
+     copy:
+       src: /opt/software/init/nginx
+       dest: /etc/init.d/
+       mode: 0755
+       
+   - name: copy nginx run file
+     shell: chkconfig  --add nginx && chkconfig   --level 234 nginx on
+
+   - name: config start nginx
+     systemd:
+       name: nginx
+       state: started
+       enabled: yes
+   
+#  install mysql client
+   - name: create mysql directory
+     file:
+       path: /usr/local/mysql/bin/
+       state: directory
+       
+   - name: copy mysql file
+     copy:
+       src: "{{ item }}"
+       dest: /usr/local/mysql/bin/
+     with_items:
+       - /opt/software/mysql
+       - /opt/software/mysqldump
+   - name: Set the file execution permission
+     file:
+       path: "{{ item}}" 
+       mode: 0755
+     with_items:
+       - /usr/local/mysql/bin/mysql
+       - /usr/local/mysql/bin/mysqldump
+   - name: create mysql file link
+     file:
+       src: /usr/local/mysql/bin/mysql
+       dest: /usr/bin/mysql
+       state: link
+       
+   - name: create mysqldump file link
+     file:
+       src: /usr/local/mysql/bin/mysqldump
+       dest: /usr/bin/mysqldump
+       state: link
+    
+  #  install node v12.18.1
+   - name: uncompress node-v12.18.1-linux-x64.tar.gz
+     unarchive:
+       src: /opt/software/node-v12.18.1-linux-x64.tar.gz
+       dest: /usr/local/
+   - name: move node directory name
+     shell: cd /usr/local/ && mv node-v12.18.1-linux-x64 node
+   - name: create npm link
+     file:
+       src: /usr/local/node/bin/npm
+       dest: /usr/local/bin/npm
+       state: link
+   - name: create node link
+     file:
+       src: /usr/local/node/bin/node
+       dest: /usr/local/bin/node
+       state: link
+   - name: copy node run file
+     copy:
+       src: /opt/software/init/node
+       dest: /etc/init.d/node
+       mode: 0755
+   - name: configure the chkconfig service
+     shell: chkconfig --add node && chkconfig --level 234 node on && npm install -g pm2
+
+   - name: link pm2
+     file:
+       src: /usr/local/node/bin/pm2
+       dest: /usr/bin/pm2
+       state: link
+
+ #  install redis v5.0.4
+
+   - name: yum install redis v5.0.4 dependency
+     yum:
+       name:
+         - gcc
+         - gcc-c++
+         - kernel-devel
+         - tcl
+         - make
+   - name: uncompress redis v5.0.4
+     unarchive:
+       src: /opt/software/redis-5.0.4.tar.gz
+       dest: /usr/local/src/
+   - name: make install redis
+     shell: cd /usr/local/src/redis-5.0.4 && make PREFIX=/usr/local/redis install
+   - name: create redis etc directory
+     file:
+       path: /usr/local/redis/etc/
+       state: directory
+   - name: copy config file
+     copy:
+       src: /opt/software/config/redis.conf
+       dest: /usr/local/redis/etc/redis.conf
+   - name: copy redis bin file to /usr/bin/
+     shell: cd /usr/local/redis/bin/ && cp redis-benchmark redis-cli redis-server /usr/bin/
+   - name: configure redis envirement
+     shell: /bin/echo -e "export PATH=$PATH:/usr/local/redis/bin" >> /etc/profile && source /etc/profile
+   - name: copy redis init file
+     copy:
+       src: /opt/software/init/redis
+       dest: /etc/init.d/redis
+       mode: 0755
+   - name: set run file
+     shell: chkconfig --add  redis && chkconfig --level 234  redis  on
+   - name: start redis
+     systemd:
+       name: redis
+       state: started
+       enabled: yes
+
+ #  install docker19.0.3
+   - name: yum install docker dependency
+     yum:
+       name:
+         - lib*
+         - libsec*
+         - container-selinux*
+         
+   - name: compy rpm install file
+     copy:
+      src: "{{ item }}"
+      dest: /usr/local/src/
+     with_items:
+       - /opt/software/containerd.io-1.2.6-3.3.el7.x86_64.rpm
+       - /opt/software/docker-ce-19.03.0-3.el7.x86_64.rpm
+       - /opt/software/docker-ce-cli-19.03.0-3.el7.x86_64.rpm      
+   - name: install the docker rpm 
+     yum:
+       name: 
+         - /usr/local/src/containerd.io-1.2.6-3.3.el7.x86_64.rpm
+         - /usr/local/src/docker-ce-19.03.0-3.el7.x86_64.rpm
+         - /usr/local/src/docker-ce-cli-19.03.0-3.el7.x86_64.rpm
+       state: present
+   - name: copy docker-compose
+     copy:
+       src: /opt/software/docker-compose
+       dest: /usr/local/bin/docker-compose
+       mode: 0755
+   - name: start docker service
+     systemd:
+       name: docker
+       state: started
+       enabled: yes
+    
+
+  #  create project directory
+   - name: create the projectk directory
+     file:
+       path: "{{ item }}"
+       state: directory
+     with_items:
+       - /KiosoftApplications/WebApps/kiosk_laundry_portal
+       - /KiosoftApplications/WebApps/kiosk_value_code
+       - /KiosoftApplications/WebApps/kiosk_web_rss
+       - /KiosoftApplications/WebApps/kiosk_web_lcms
+       - /KiosoftApplications/WebApps/oldversion
+       - /KiosoftApplications/Licenses
+       - /script
+       - /back/mysql/dir
+       - /usr/local/nginx/logs/oldversion/
+
+   - name: copy script file
+     copy:
+       src: "{{ item }}"
+       dest: /script/
+       mode: 0755
+     with_items:
+       - /opt/software/script/cut_nginx_log.sh
+       - /opt/software/script/backupmysql.sh
+
+  #  create crontab
+   - name: set backup mysql crontab
+     cron:
+       name: "backup mysql"
+       job: "sh  /script/backupmysql.sh > /dev/null 2 >&1"
+       minute: "15"
+       hour: "4"
+   - name: create cut nginx log crontab
+     cron:
+       name: "cut nginx log"
+       job: "sh /script/cut_nginx_log.sh > /dev/null 2 >&1"
+       minute: "0"
+       hour: "0"
+
+# check all service is enabled
+   - name: check all service is enabled
+     command: systemctl status "{{ item }}"
+     with_items:
+       - docker
+       - nginx
+       - redis
+       - php-fpm
+       - node
+      

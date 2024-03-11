@@ -1,0 +1,10 @@
+yum -y install sqlite-devel
+
+pip3 install stevedore -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+pip3 install virtualenv -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+pip3 install virtualenvwrapper -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+mkvirtualenv -p python3 django
+deactivate
+workon django
+rmvirtualenv django

